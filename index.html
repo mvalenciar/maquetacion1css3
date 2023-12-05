@@ -1,14 +1,116 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Master CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
 </head>
 
 <body>
+    <header class="encabezado">
+        <img src="img/logo.png" alt="logo master css3" title="logo master css3">
+        <h1><a href="index.html">master en css</a></h1>
+    </header>
+    <nav id="menu">
+        <ul>
+            <li>
+                <a href="#">Inicio</a>
+            </li>
+            <li>
+                <a href="#">Contenido</a>
+            </li>
+            <li>
+                <a href="#">Requerimientos</a>
+            </li>
+            <li>
+                <a href="#">Lenguajes</a>
+                <ul>
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Frameworks</a>
+                <ul>
+                    <li><a href="">LESS</a></li>
+                    <li><a href="">SASS</a></li>
+                    <li><a href="">BOOTSTRAP</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Proyectos</a>
+            </li>
+            <li>
+                <a href="#">El Instructor</a>
+            </li>
+            <li>
+                <a href="#">Reseñas</a>
+            </li>
+            <li>
+                <a href="#">Blog</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="content">
+        <aside id="aside">
+            <div class="widget" id="login">
+                <h3>Entrar a la web</h3>
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña">
+                    <button type="button">Entrar</button>
+                </form>
+                <a href="#">Zona de Alumnos</a>
+                <a href="#">Zona de Profesor</a>
+                <a href="#">Zona de Calificaciones</a>
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="blue">Aula virtual 1</h3>
+                <form>
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña">
+                    <button type="button">Entrar</button>
+                </form>
+            </div>
+
+            <div class="widget" id="login">
+                <h3 class="red">Aula virtual 2</h3>
+                <form>
+                    <label for="usuario">Nombre de usuario:</label>
+                    <input type="text" name="usuario" id="usuario">
+                    <label for="contraseña">Contraseña:</label>
+                    <input type="password" name="contraseña" id="contraseña">
+                    <button type="button">Entrar</button>
+                </form>
+            </div>
+
+            <div class="widget" id="login">
+                <h3>Enlaces de interés</h3>
+                <ul>
+                    <li><a href="#">Master en JavaScript</a></li>
+                    <li><a href="#">Master en PHP</a></li>
+                    <li><a href="#">Master en Frameworks JS</a></li>
+                    <li><a href="#">Master en webs full-stack</a></li>
+                    <li><a href="#">victorroblesweb.es</a></li>
+                </ul>
+            </div>
+        </aside>
+        <aside id="frase">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            <a href="#">Leer mas frases</a>
+        </aside>
+    </div>
 
 </body>
 
